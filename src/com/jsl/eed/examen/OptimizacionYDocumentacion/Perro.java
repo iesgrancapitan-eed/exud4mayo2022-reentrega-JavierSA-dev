@@ -1,6 +1,6 @@
 package com.jsl.eed.examen.OptimizacionYDocumentacion;
 
-public class Perro {
+public class Perro  extends Mascota{
 	private int age;
 	private String name;
 	private static final String GUAUUUUUUUUUU = "GUAUUUUUUUUUU";
