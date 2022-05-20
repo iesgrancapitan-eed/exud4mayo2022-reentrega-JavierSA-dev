@@ -3,7 +3,7 @@ package com.jsl.eed.examen.OptimizacionYDocumentacion;
 public class Perro {
 	private int age;
 	private String name;
-
+	private static final String GUAUUUUUUUUUU = "GUAUUUUUUUUUU";
 	public Perro(String name, int age) throws EdadErroneaException {
 		setAge(age);
 		this.name = name;
@@ -20,7 +20,7 @@ public class Perro {
 	}
 
 	public String ladrar() {
-		return "GUAUUUUUUUUUU";
+		return GUAUUUUUUUUUU;
 	}
 
 	public String getName() {
